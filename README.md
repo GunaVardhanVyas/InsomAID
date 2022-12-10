@@ -1,2 +1,6 @@
 # molten-testing
-learning git
+~~new to~~ learning git
+<em>test repo</em>
+
+> only testing
+>> contains initial code of InsomAID
