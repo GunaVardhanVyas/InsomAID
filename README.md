@@ -1,8 +1,9 @@
 # molten-testing
-~~new to~~ learning git
-<em>test repo</em>
 
-> only testing
->> contains initial code of InsomAID
+> contains initial code of InsomAID
 
-**isnt the final working website**
+<hr>
+
+**Designed two approaches:** 
+> 1. HTML+CSS+NodeJS+MongoDB (contained files)
+> 2. Implementation using local storage in ReactJS 
