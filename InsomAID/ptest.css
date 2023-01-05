@@ -1,0 +1,47 @@
+body, html {
+  height: 100%;
+}
+
+body{
+  background-color: aqua;
+}
+
+div{
+  border-radius: 40px;
+  align-items: center;
+  align-self: center;
+}
+
+.parallax {
+  /* The image used */
+  background-image: url('data/Night.jpg');
+
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.box1{
+  background-image: url('data/forest1.jfif');
+  position: absolute;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.box2{
+  background-image: url('data/river3.jpeg');
+}
+
+.box3{
+  background-image: url('data/rain.jpeg');
+}
+
+.box1{
+  background-image: url('data/forest1.jfif');
+}
