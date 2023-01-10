@@ -4,35 +4,90 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="ptest.css" />
 		<title>InsomAID</title>
+		<script>
+			function playFunction1(){
+				document.getElementById("myAudio1").play();
+			}
+			function playFunction2(){
+				document.getElementById("myAudio2").play();
+			}
+			function playFunction3(){
+				document.getElementById("myAudio3").play();
+			}
+			function playFunction4(){
+				document.getElementById("myAudio4").play();
+			}
+			function playFunction5(){
+				document.getElementById("myAudio5").play();
+			}
+			function pauseFunction1(){
+				document.getElementById("myAudio1").pause();
+			}
+			function pauseFunction2(){
+				document.getElementById("myAudio2").pause();
+			}
+			function pauseFunction3(){
+				document.getElementById("myAudio3").pause();
+			}
+			function pauseFunction4(){
+				document.getElementById("myAudio4").pause();
+			}
+			function pauseFunction5(){
+				document.getElementById("myAudio5").pause();
+			}
+		</script>
 	</head>
 	
 	<body>
 
 		<div class="parallax"></div>
 
-		<div id="box1" style="height:1000px;background-image:'data/forest1.jfif';font-size:36px">
-			<span id="forest">FOREST</span>
+		<div class="box1">
+			<audio src="data/harp.mp4" type="audio/mp4" id="myAudio1"></audio>
+			<button onclick="playFunction1()" type="button" class="forest">FOREST</button>
+			<button onclick="pauseFunction1()" type="button" class="stop"></button>
+			
+			
+		</div>
+		<div class="parallax" style="height: 150px;"></div>
+
+		<div class="box2" >
+			<audio src="data/riverflow.mp4" type="audio/mp4" id="myAudio2"></audio>
+			<button onclick="playFunction2()" type="button"  class="river">RIVER</button>
+			<button onclick="pauseFunction2()" type="button" class="stop"></button>
+			
+			
+		</div>
+		<div class="parallax" style="height: 150px;"></div>
+		<div class="box3" >
+		    <audio src="data/rain.mp4" type="audio/mp4" id="myAudio3"></audio>
+			<button onclick="playFunction3()" type="button"  class="rain">RAIN</button>
+			<button onclick="pauseFunction3()" type="button" class="stop"></button>
+			
+			
 		</div>
 
 		<div class="parallax" style="height: 150px;"></div>
 
-		<div id="box2" style="height:1000px;background-image:'.data/river1.jpg';font-size:36px">
-			<span id="river">RIVER</span>
+		<div class="box4" >
+			<audio src="data/flute_forest.mp4" type="audio/mp4" id="myAudio4"></audio>
+			<button onclick="playFunction4()" type="button"  class="flute">FLUTE</button>
+			<button onclick="pauseFunction4()" type="button" class="stop"></button>
+			
+		
 		</div>
 
 		<div class="parallax" style="height: 150px;"></div>
 
-		<div id="box3" style="height:1000px;background-color:blue;font-size:36px">
-			<span id="rain">RAIN</span>
+		<div class="box5" >
+			<audio src="data/beach.mpeg" type="audio/mpeg" id="myAudio5"></audio>
+			<button onclick="playFunction5()" type="button"  class="beach">BEACH</button>
+			<button onclick="pauseFunction5()" type="button" class="stop"></button>
+			
+			
 		</div>
-
-		<div class="parallax" style="height: 150px;"></div>
-
-		<div id="box4" style="height:1000px;background-color:red;font-size:36px">
-			<span id="flute">FLUTE</span>
-		</div>
-
-		<div class="parallax"></div>
+      
+		<div class="parallax" style="height: 300px;"></div>
 
 	</body>
 </html>

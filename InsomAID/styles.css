@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: purple;
+    align-items: center;
+    align-content: center;
+    }
+    .td{
+        width:"25%";
+    }
+    body{
+        background-image: url('Night.jpg')      
+        
+    }
+    
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+        border-spacing: 300px 300px;
+      }
+      table,td,tr,th {
+        background-color: whitesmoke;
+        border-collapse: collapse;
+        border-color: blueviolet;
+        padding-bottom: 10px;
+        border-spacing: 10px;
+      }
+      .inn{
+        
+
+      }
+      

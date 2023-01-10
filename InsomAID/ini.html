@@ -1,18 +1,105 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>INITIAL: TEST</title>
-        <link rel="stylesheet" href="inistyle.css" />
-        <script src="inijs.js"></script>
-    </head>
 
-    <body>
-        
+<head>
+    <title></title>
+    <link rel="stylesheet" href="./styles.css">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <!-- <script>
+        function chValidation() {
 
-        <form >
-            <abbr title:"enter 3 or more letters">Name:</abbr><input type="text" >
-            Email: <input type="text" />
-            Password: <input type="password" />
-        </form>
-    </body>
+            var emailValue = document.formname.email1.value;
+            var emailReg = /^[a-zA-Z0-9\._]@(nitk).(ac.in)/;
+            if (emailReg.test(emailValue)) {
+                // document.getElementById("emailCheck").style.visibility="visible";
+                document.getElementById("emailCheck").innerhtml = "Valid";
+                document.getElementById("emailCheck").style.color = "Green";
+                return true;
+            } else if (emailValue == null || emailValue == "") {
+                // document.getElementById("emailCheck").style.visibility="visible";
+                document.getElementById("emailCheck").innerhtml = "Enter an Email!";
+                document.getElementById("emailCheck").style.color = "Red";
+                return false;
+            } else {
+                // document.getElementById("emailCheck").style.visibility="visible";
+                document.getElementById("emailCheck").innerhtml = "Enter a Valid Email!!";
+                document.getElementById("emailCheck").style.color = "Red";
+                return false;
+            }
+        }    
+    </script> -->
+</head>
+
+<body>
+    <div class="background">
+        <div>
+            <table class="center">
+                <tr>
+
+                    <td>
+
+
+
+                            <table class="inn">
+                            <form className='box' action="/login" method="post">
+                                <tr>
+                                    <div className='loginstart'>
+                                    <h2>
+                                        LOGIN
+                                    </h2>
+                                    </div>
+                                </tr>
+                                <tr>
+                                  <td> <label htmlFor="email">Email</label></td>
+                                  <td></td>
+                                  <td><input className='info' type="text" name="email" id="email" /></td>
+                                
+                                <tr>
+                                    <td><label htmlFor="password">Password</label></td>
+                                    <td></td>
+                                    <td><input className='info' type="password" name="password" id="password" /></td>
+                                </tr>
+
+                                <tr>
+                                    <td colspan="2"><button className='info' type="submit">Login</button></td>
+                                </tr>
+                            </form>
+                            </table>
+
+                    </td>
+                    <td>
+                        <table class="inn">
+                            <form className='box' action="/sign_up" method="post">
+                                <tr>
+                                <div className='loginstart'>
+                                    <h2>
+                                        SIGN-UP
+                                    </h2>
+                                </div>
+                                </tr>
+                                <tr>
+                                <td>
+                                    <label htmlFor="email">Email</label>
+                                </td>
+                                <td></td>
+                                <td> 
+                                    <input className='info' type="text" name="email" id="email" />
+                                </td>
+                                <tr>
+                                    <td><label htmlFor="password">Password</label></td>
+                                    <td></td>
+                                    <td><input className='info' type="password" name="password" id="password" /></td>
+                                </tr>
+                                <tr>
+                                <td colspan="2"><button className='info' type="submit">
+                                    Sign Up
+                                </button>
+                                </td>
+                                </tr>
+                            
+                            </form>
+                        </table>
+                    </td>
+</body>
+
 </html>
